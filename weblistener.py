@@ -15,10 +15,10 @@ class WebListen:
         self.msgIndexUrl = urljoin(self.baseUrl, 'modules/peixunxinxi.jsp')
         self.msgList = []
         self.signal = True
-        self.from_addr = '18681310612@163.com'
-        self.from_pwd = '5576922800zt1996'
+        self.from_addr = 'your from_email_addr'
+        self.from_pwd = 'your from_email_addr_password'
         self.smtp_server = 'smtp.163.com'
-        self.to_addr = '3037988799@qq.com'
+        self.to_addr = 'your to_email_addr'
         logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')
 
     def getPage(self):
